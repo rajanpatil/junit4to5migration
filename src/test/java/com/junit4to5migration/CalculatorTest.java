@@ -52,9 +52,9 @@ public class CalculatorTest {
   public void testMultipleCalculationFailures() {
     // assert all
     assertEquals(4, calculator.addition(2, 2));
-    assertEquals(4, calculator.subtraction(6, 1));
+    assertEquals(5, calculator.subtraction(6, 1));
     assertEquals(8, calculator.addition(2, 6));
-    assertEquals(4, calculator.addition("2", "3"));
+    assertEquals(5, calculator.addition("2", "3"));
   }
 
   @Test
